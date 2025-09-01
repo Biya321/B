@@ -17,9 +17,9 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "Nabhia ka bot",
-    "PREFIX": "/",
+    "PREFIX": ".",
     "ADMINBOT": [
-        "100037743553265"
+        "61575126731193"
     ],
     "NDH": [
         "100037743553265"
