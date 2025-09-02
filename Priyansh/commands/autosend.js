@@ -6,7 +6,7 @@ module.exports.config = {
     name: 'autosent',
     version: '10.0.0',
     hasPermssion: 0,
-    credits: '𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭',
+    credits: 'Nabhia Haq',
     description: 'Set Karne Ke Bad Automatically Msg Send Karega',
     commandCategory: 'group messenger',
     usages: '[]',
@@ -14,30 +14,30 @@ module.exports.config = {
 };
 
 const messages = [
-    { time: '12:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 12:00 𝗔𝐌 ⏳ 𝐒𝐨 𝐉𝐚𝐨 𝐁𝐚𝐛𝐲 𝐆𝐨𝐨𝐝 𝐍𝐢𝐠𝐡𝐭 🥀 ──── •💜• ────' },
-    { time: '1:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 1:00 A𝐌 ⏳ 𝗧𝘂𝗺𝗵𝗮𝗿𝗮 𝐌𝗲𝗿𝗲 𝐒𝗶𝘃𝗮😘 ──── •💜• ────' },
-    { time: '2:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 2:00 A𝐌 ⏳ 𝗧𝘂𝗺 𝗔𝗯𝗵𝗶 𝗧𝗮𝗸 𝗦𝗼𝘆𝗲 𝗡𝗵𝗶 😳 ──── •💜• ────' },
-    { time: '3:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 3:00 A𝐌 ⏳ 𝐀𝐜𝐜𝐡𝐚 𝐡𝐨𝐠𝐚 𝐍𝐞𝐞𝐧𝐝 𝐀𝐚𝐣𝐚𝐲𝐞🌃 ──── •💜• ────' },
-    { time: '4:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 4:00 A𝐌 ⏳ 𝐍𝐞𝐞𝐧𝐝 𝐀𝐚𝐣𝐚𝐲𝐞 🌃 ──── •💜• ────' },
-    { time: '5:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 5:00 𝗔𝐌 ⏳ 𝐀𝐚𝐥𝐬𝐢😹 ──── •💜• ────' },
-    { time: '6:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 6:00 A𝐌 ⏳ 𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮 𝐀𝐥𝐚𝐢𝐤𝐮𝐦 ❤️🥀 💖 ──── •💜• ────' },
-    { time: '7:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 7:00 A𝐌 ⏳ 𝐔𝐭𝐡 𝐉𝐚𝐨 𝐀𝐛𝐡𝐢🥰 ──── •💜• ────' },
-    { time: '8:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 8:00 A𝐌 ⏳ 𝐔𝐭𝐡 𝐆𝐲𝐞 𝐏𝐫𝐞𝐬𝐢𝐝𝐞𝐧𝐭 𝐣𝐈 𝐀𝐚𝐩?😵 ──── •💜• ────' },
-    { time: '9:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 9:00 A𝐌 ⏳ 𝐁𝐫𝐞𝐚𝐤𝐟𝐚𝐬𝐭 𝐊𝐚𝐫𝐥𝐨 𝐀𝐛𝐡𝐢 𝐁𝐚𝐛𝐲🙈 ──── •💜• ────' },
-    { time: '10:00 AM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 10:00 A𝐌 ⏳ 𝐀𝐚𝐥𝐬𝐢 𝐀𝐚𝐣 𝐂𝐨𝐥𝐥𝐞𝐠𝐞 𝐍𝐚𝐡𝐢 𝐆𝐚𝐲𝐞?🙀 ──── •💜• ────' },
-    { time: '11:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 11:00 A𝐌 ⏳ 𝐌𝐮𝐣𝐡𝐞 𝐁𝐡𝐢 𝐘𝐚𝐚𝐝 𝐊𝐚𝐫 𝐋𝐢𝐲𝐚 𝐊𝐚𝐫𝐨😻 ──── •💜• ────' },
-    { time: '12:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 12:00 𝐏𝐌 ⏳ 𝐆𝐨𝐨𝐝 𝐀𝐟𝐭𝐞𝐫𝐍𝐨𝐨𝐧 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞🌞 𝐊𝐢𝐭𝐧𝐢 𝐆𝐚𝐫𝐦𝐢 𝐇 𝐁𝐚𝐡𝐚𝐫🥵 ──── •💜• ────' },
-    { time: '1:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 1:00 𝐏𝐌 ⏳ 𝐋𝐮𝐧𝐜𝐡 𝐊𝐚𝐫𝐥𝐨 𝐀𝐛𝐡𝐢😇 ──── •💜• ────' },
-    { time: '2:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 2:00 𝐏𝐌 ⏳ 𝐁𝐨𝐥𝐨 𝐉𝐚𝐢 𝐒𝐡𝐫𝐞𝐞 𝐑𝐚𝐦 💖😇 ──── •💜• ────' },
-    { time: '3:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 3:00 𝐏𝐌 ⏳ 𝐓𝐡𝐨𝐝𝐚 𝐀𝐚𝐫𝐚𝐦 𝐊𝐚𝐫𝐥𝐨 𝐀𝐛𝐡𝐢😘 ──── •💜• ────' },
-    { time: '4:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 4:00 𝐏𝐌 ⏳ 𝐁𝐚𝐡𝐮𝐭 𝐆𝐚𝐫𝐦𝐢 𝐇 𝐀𝐚𝐣🥵 ──── •💜• ────' },
-    { time: '5:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 5:00 𝐏𝐌 ⏳ 𝐇𝐚𝐫 𝐇𝐚𝐥 𝐌𝐞 𝐇𝐚𝐦𝐞𝐬𝐡𝐚 𝐊𝐡𝐮𝐬𝐡 𝐑𝐚𝐡𝐨 😇 ──── •💜• ────' },
-    { time: '6:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 6:00 𝐏𝐌 ⏳ 𝐁𝐨𝐥𝐨 𝐒𝐚𝐭𝐲 𝐌𝐞 𝐉𝐚𝐢𝐭𝐞 𝐇 𝐒𝐚𝐧𝐚𝐭𝐚𝐧 𝐃𝐡𝐚𝐫𝐦 💖 ──── •💜• ────' },
-    { time: '7:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 7:00 𝐏𝐌 ⏳ 𝐊𝐡𝐮𝐬𝐡 𝐑𝐚𝐡𝐧𝐚 𝐌𝐞𝐫𝐚 𝐏𝐫𝐨𝐦𝐢𝐬𝐞 💞 ──── •💜• ────' },
-    { time: '8:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 8:00 𝐏𝐌 ⏳ 𝐃𝐢𝐧𝐧𝐞𝐫 𝐊𝐚𝐫𝐥𝐨 𝐒𝐚𝐫𝐞 😋 ──── •💜• ────' },
-    { time: '9:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 9:00 𝐏𝐌 ⏳ 𝐌𝐞𝐫𝐞 𝐂𝐮𝐭𝐞 𝐁𝐚𝐛𝐲 💞 ──── •💜• ────' },
-    { time: '10:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 10:00 𝐏𝐌 ⏳ 𝐓𝐮𝐦 𝐌𝐮𝐬𝐤𝐮𝐫𝐚𝐨 𝐇𝐚𝐬𝐨 𝐇𝐚𝐦𝐞𝐬𝐡𝐚 ☺️ ──── •💜• ────' },
-    { time: '11:00 PM', message: '──── •💜• ──── 𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 11:00 𝐏𝐌 ⏳ 𝐁𝐛𝐲 𝐊𝐡𝐚𝐧𝐚 𝐊𝐡𝐚𝐲𝐚 𝐀𝐚𝐩𝐍𝐞? ──── •💜• ────' }
+    { time: '12:00 AM', message: '⏰ 12:00 AM: Raat ke 12 baj gaye hain... ab so jao, kal Fajr miss na ho 💫 Allah Hafiz 🌙' },
+    { time: '1:00 AM', message: '⏰ 1:00 AM: Itni dair tak jaagna sehat ke liye acha nahi... Dua karo aur so jao 🤲😴' },
+    { time: '2:00 AM', message: '⏰ 2:00 AM: Neend nahi aa rahi? Allah se baat karo... dil ko sukoon milega 🤍🕋' },
+    { time: '3:00 AM', message: '⏰ 3:00 AM: Ye waqt tahajjud ka hota hai... uth kar Allah se apni baat keh do 🌙🕊️' },
+    { time: '4:00 AM', message: '⏰ 4:00 AM: Subah qareeb hai... Fajr ki tayyari karo, rooh ko zinda karo 🌄🕌' },
+    { time: '5:00 AM', message: '⏰ 5:00 AM: Fajr ka waqt hai... uth jao, Rab bula raha hai 💖🕋' },
+    { time: '6:00 AM', message: '⏰ 6:00 AM: Assalamualaikum! Naye din ki shuruaat Allah ka shukar ada kar ke karo 🤲🌞' },
+    { time: '7:00 AM', message: '⏰ 7:00 AM: Din ka aghaaz Bismillah se karo, har kaam mein barkat hogi 💫📿' },
+    { time: '8:00 AM', message: '⏰ 8:00 AM: Kaam pe nikalne se pehle Surah Al-Fatiha padh lena 💼🕋' },
+    { time: '9:00 AM', message: '⏰ 9:00 AM: Nashta kar lo... sehat bhi amaanat hai, Allah ki ni’mat hai 🍽️💛' },
+    { time: '10:00 AM', message: '⏰ 10:00 AM: Kaam mein mehnat aur niyyat dono zaroori hain — Allah dekh raha hai 💪📖' },
+    { time: '11:00 AM', message: '⏰ 11:00 AM: Thodi dair Allah ka zikr kar lo... dil ko raahat milegi 🕊️📿' },
+    { time: '12:00 PM', message: '⏰ 12:00 PM: Dhoop tez hai, lekin Allah ki rehmat har garmi se zyada thandi hai ☀️🌿' },
+    { time: '1:00 PM', message: '⏰ 1:00 PM: Zohar ka waqt hone wala hai, tayyari karo namaz ki 🕌🤲' },
+    { time: '2:00 PM', message: '⏰ 2:00 PM: Har mushkil ke baad aasani hai — Quran ka waada hai 💖📖' },
+    { time: '3:00 PM', message: '⏰ 3:00 PM: Thoda sukoon chahiye? Wazoo karo, aur Quran ki tilawat suno 🌸🎧' },
+    { time: '4:00 PM', message: '⏰ 4:00 PM: Asr se pehle thodi dair Allah ka zikr zaroor kar lena 🤲📿' },
+    { time: '5:00 PM', message: '⏰ 5:00 PM: Har haal mein shukar karna seekho, Allah aur zyada dega 💫🤍' },
+    { time: '6:00 PM', message: '⏰ 6:00 PM: Maghrib ka waqt qareeb hai... roshniyon mein rooh bhi chamakti hai 🕌✨' },
+    { time: '7:00 PM', message: '⏰ 7:00 PM: Dua karo: "Ya Allah har dukh door kar aur khushi nazil farma" 🤲💛' },
+    { time: '8:00 PM', message: '⏰ 8:00 PM: Dinner ka waqt hai... khane se pehle Bismillah, baad mein Alhamdulillah 🍛😊' },
+    { time: '9:00 PM', message: '⏰ 9:00 PM: Aaj ka din kaisa bhi guzra ho, shukar zaroor karo — rehmat milti hai 💫🕊️' },
+    { time: '10:00 PM', message: '⏰ 10:00 PM: Sone se pehle Surah Mulk yaad se parhna... qabar mein roshni milegi 🌙📖' },
+    { time: '11:00 PM', message: '⏰ 11:00 PM: Khana khaya? Dua ke sath so jao: "Allahumma bismika amutu wa ahya" 🌌🤲' }
 ];
 
 module.exports.onLoad = ({ api }) => {
@@ -52,7 +52,7 @@ module.exports.onLoad = ({ api }) => {
             hour24 = 0;
         }
 
-        const scheduledTime = moment.tz({ hour: hour24, minute: parseInt(minute, 10) }, 'Asia/Kolkata').toDate();
+        const scheduledTime = moment.tz({ hour: hour24, minute: parseInt(minute, 10) }, 'Asia/karachi').toDate();
 
         schedule.scheduleJob(scheduledTime, () => {
             global.data.allThreadID.forEach(threadID => {
