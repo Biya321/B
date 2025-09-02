@@ -3,7 +3,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "Nabhia Haq",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -21,155 +21,130 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
     if ((event.body.toLowerCase() == "chutiya bot") || (event.body.toLowerCase() == "chutiye bot") || (event.body.toLowerCase() == "chumtiya bot") || (event.body.toLowerCase() == "chumtiye bot")) {
-     return api.sendMessage("Hmm... Tu Chutiya PhLe Ungli Kyun Ki Chomu 😾", threadID);
-   };
+  return api.sendMessage("Tujhe toh UNESCO ne certified chomu declare kiya hai 😾🤣", threadID);
+};
 
-   if ((event.body.toLowerCase() == "🤮") || (event.body.toLowerCase() == "🤮")) {
-     return api.sendMessage("Konsa mahina chal raha hai 😝", threadID);
-   };
+if ((event.body.toLowerCase() == "🤮")) {
+  return api.sendMessage("Tu dekh ke ulti kar raha ya apni shakal dekh ke? 😝🤢", threadID);
+};
 
-    if ((event.body.toLowerCase() == "🤗") || (event.body.toLowerCase() == "🤗")) {
-     return api.sendMessage("Hug me baby ☺️", threadID);
-   };
+if ((event.body.toLowerCase() == "🤗")) {
+  return api.sendMessage("Awww tu toh bada pyara nikla 😘 Aa gale lag ja 🤗💞", threadID);
+};
 
-     if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsimi")) {
-     return api.sendMessage("Prefix Kon Lagayega? Pehle Prefix Lagao Fir Likho Sim", threadID);
-   };
-  
-   if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello") ||(event.body.toLowerCase() == "hlw") || (event.body.toLowerCase() == "helo")) {
-     return api.sendMessage("Hello, Hi, Bye bye. Ye sab ke alawa kuch bolna nhi ata Kya tujhe", threadID);
-   };
+if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsimi")) {
+  return api.sendMessage("Pehle prefix lagao janeman, phir baat karna 😌📛", threadID);
+};
 
-   if ((event.body.toLowerCase() == "bc") || (event.body.toLowerCase() == "bc")) {
-     return api.sendMessage("Ye Bc Kya HoTa Hai 🤔 ", threadID);
-   };
+if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello") || (event.body.toLowerCase() == "hlw") || (event.body.toLowerCase() == "helo")) {
+  return api.sendMessage("Hello hello kya laga rakha hai? Call center samjha hai kya mujhe? 😤📞", threadID);
+};
+
+if ((event.body.toLowerCase() == "bc")) {
+  return api.sendMessage("BC? Matlab Biscuit Cracker? Ya Bechain Chomu? 😜🍪", threadID);
+};
 
 if ([
-    "assalamualaikum", 
-    "assalam alaikum", 
-    "aoa", 
-    "a.o.a", 
-    "asalam o alaikum", 
-    "asalamualaikum", 
-    "asalam alikum", 
-    "assalamu alaikum", 
-    "assalamu-alaikum", 
-    "asalam wa alaikum", 
-    "asslamualaikum", 
-    "asslam o alaikum", 
-    "aslam alaikum", 
-    "asalamo alaikum", 
-    "assalam o alaikum", 
-    "assalamo alaikum", 
-    "slm", 
-    "slam", 
-    "slamo alikum", 
-    "salaam alaikum", 
-    "asslam.o.alaikum", 
-    "a.s.s.a.l.a.m", 
-    "aslaam o alikum", 
-    "aslam.o.alaikum", 
-    "assalamwalykum", 
-    "asslam.walikum", 
-    "assalam alaykum", 
-    "assalam.walaikum", 
-    "a-s-s-a-l-a-m", 
-    "slms"
+  "assalamualaikum",
+  "assalam o alaikum",
+  "asalam o alaikum",
+  "asalamualaikum",
+  "assalamu alaikum",
+  "aoa",
+  "slam",
+  "slm"
 ].includes(event.body.toLowerCase())) {
-    return api.sendMessage("وَعَلَيْكُمُ ٱلسَّلَامُ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ", threadID);
-}  
-   if ((event.body.toLowerCase() == "lol") || (event.body.toLowerCase() == "lol bot")) {
-     return api.sendMessage("Khud ko Kya LeGend Samjhte Ho 😂", threadID);
-   };
+  return api.sendMessage("وَعَلَيْكُمُ ٱلسَّلَامُ وَرَحْمَةُ ٱللَّهِ وَبَرَكَاتُهُ 🌙", threadID);
+}
+
 if ([
-    "good evening", 
-    "evening", 
-    "gd evening", 
-    "gud evening", 
-    "ge", 
-    "g.e", 
-    "evenin"
+  "lol",
+  "lol bot"
 ].includes(event.body.toLowerCase())) {
-    return api.sendMessage("Good Evening! I hope you’re having a wonderful time.", threadID);
+  return api.sendMessage("Khud ko kya LeGend samajh raha hai? 😂", threadID);
 }
-  if ([
-    "i love you bot", 
-    "bot i love you", 
-    "i love you"
+
+if ([
+  "good evening",
+  "evening",
+  "gud evening",
+  "gd evening"
 ].includes(event.body.toLowerCase())) {
-    return api.sendMessage("Yaar, Mujhe aisi baatein nahi pasand. Main buhat shreef hoon. Haan, mera owner single hai, bolo to number tak de sakta hoon. 😁", threadID);
-  }
- if ([
-    "bot i miss you", 
-    "i miss you bot", 
-    "miss you"
-].includes(event.body.toLowerCase())) {
-    return api.sendMessage("Hyeee, I miss you too! SuChi kia karun, ID issue aa jata hai is liye mujhe new ID banne ka wait karna padta hai. Jab new ID banti hai, to owner mujhe add kar deta hai. 😅", threadID);
+  return api.sendMessage("Good Evening! I hope you’re having a wonderful time. 🌆", threadID);
 }
- if ([
-    "bot kis na add kiya", 
-    "bot kisne add kiya", 
-    "bot kis ne add kiya", 
-    "bot ko kisne add kiya",
-    "bot ko kis ne add kiya", 
-    "bot add kisne kiya", 
-    "kisne bot ko add kiya", 
-    "kis na bot ko add kiya", 
-    "bot ko kisne add kiya", 
-    "bot kis ne add kiya?"
+
+if ([
+  "i love you bot",
+  "bot i love you",
+  "i love you"
+].includes(event.body.toLowerCase())) {
+  return api.sendMessage("Yaar, mujhe aisi baatein nahi pasand. Main bohat shareef hoon 😳. Haan, mera owner single hai, bolo to number tak de sakta hoon. 😁", threadID);
+}
+
+if ([
+  "i miss you bot",
+  "bot i miss you",
+  "miss you"
+].includes(event.body.toLowerCase())) {
+  return api.sendMessage("Hyeee, I miss you too! ID ka masla ho jata hai kabhi kabhi 😅. Jab new ID milti hai to owner mujhe wapas add kar deta hai. 💌", threadID);
+}
+
+if ([
+  "bot kis ne add kiya",
+  "kisne bot ko add kiya",
+  "bot ko kisne add kiya",
+  "kis ne bot ko add kiya",
+  "add kisne kiya",
+  "bot kisne add kiya"
 ].some(phrase => event.body.toLowerCase().includes(phrase))) {
-    return api.sendMessage("Kio kia howa, add ho gaya so ho gaya. Ma ap ko kia taqleef hy jnab 👻. Waisay ap bhi khelo na, bot bot! 😄 Mera owner single hai, bolo to number tak de sakta hoon! 😁", threadID);
- }
-  
-  if ([
-    "how are you", 
-    "how r u", 
-    "how are u", 
-    "how's it going", 
-    "kese ho", 
-    "kese hain", 
-    "kese ho ap", 
-    "ap kese ho", 
-    "ap kaise ho", 
-    "kaise hain aap", 
-    "kaise ho", 
-    "how do you do", 
-    "what's up", 
-    "sup", 
-    "kya haal hain", 
-    "kya hal hain", 
-    "hal chal", 
-    "hal kya hai", 
-    "kya chal raha hai", 
-    "kya scene hai", 
-    "what's going on", 
-    "kya ho raha hai", 
-    "kaise ho tum", 
-    "tum kaise ho", 
-    "kya haal he"
-].includes(event.body.toLowerCase())) {
-    return api.sendMessage("Main theek hoon, aap kaise hain? Umeed karta hoon ke aap ka din acha guzray ga.", threadID);
-  }
-  if ((event.body.toLowerCase() == "morning") || (event.body.toLowerCase() == "good morning")) {
-    return api.sendMessage("Good Morning! 🌞 بہت خوش آمدید! 🙌 امید کرتا ہوں کہ آپ کا دن خوشگوار گزرے، اللہ پاک آپ کو ہر برائی سے بچائے، آپ کو اپنی حفظ و امان میں رکھے، اور کبھی کسی کا محتاج نہ کرے! آمین! 🤲💫💕💪🌻☕✨", threadID);
+  return api.sendMessage("Kya farq parta hai kis ne kiya? Add to ho gaya! 😎 Waise, owner single hai... interested ho to bata dena 😜", threadID);
 }
-   if ((event.body.toLowerCase() == "morning") || (event.body.toLowerCase() == "good morning")) {
-     return api.sendMessage("Ꮆɵɵɗ Ɱ❍ɽƞɪɪƞɠ Ɛⱱɛɽɣ❍ƞɛ🌅, Ƭɽɣ ꌗɵɱɛ Cɵffɛɛ ❍ɽ Ƭɛɑ Ƭ❍ Ꮗɑҡɛ Uƥ☕✨💫", threadID);
-   };
 
-   if ((event.body.toLowerCase() == "anyone") || (event.body.toLowerCase() == "any")) {
-     return api.sendMessage("Main Hun Naw Jaaneman ❤️", threadID);
-   };
+// Greet: How are you
+if ([
+  "how are you",
+  "how r u",
+  "how are u",
+  "kese ho",
+  "kese hain",
+  "kaise ho",
+  "kaise hain",
+  "ap kese ho",
+  "tum kese ho",
+  "kya haal hai",
+  "kya hal hai",
+  "hal chal",
+  "kya scene hai",
+  "what's up",
+  "what's going on"
+].includes(event.body.toLowerCase())) {
+  return api.sendMessage("Main theek hoon, aap kaise ho? Umeed karta hoon ke aap ka din acha guzray 🥰", threadID);
+}
 
-   if ((event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "priyansh rajput") || (event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "prince")) {
-     return api.sendMessage( "Busy HoGa Work Me Main t0o Hun Naw 😘",threadID);
+// Good Morning (Only one block)
+if ([
+  "morning",
+  "good morning"
+].includes(event.body.toLowerCase())) {
+  return api.sendMessage("Good Morning! 🌞 Khush aamdeed! Umeed hai aap ka din positive aur productive guzray. Allah aapko har mushkil se bachaaye. 🤲💫💕☕", threadID);
+}
 
-       
-   };
+// Anyone
+if ([
+  "anyone",
+  "any"
+].includes(event.body.toLowerCase())) {
+  return api.sendMessage("Main hoon na jaaneman! ❤️", threadID);
+}
 
-   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞꧁𝐙𝐚𝐢𝐧𝐢-𝐉𝐮𝐭𝐭꧂☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ℤ𝔸𝕀ℕ ℙℝ𝕀ℕℂ𝔼🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞https://www.facebook.com/profile.php?id=100086033644262&mibextid=ZbWKwL \n👋For Any Kind Of Help Contact On Telegram  Username 👉 @zainijutt7😇", threadID);
-   };
+// Priyansh / Owner related
+if ([
+  "priyansh",
+  "priyansh rajput",
+  "prince"
+].includes(event.body.toLowerCase())) {
+  return api.sendMessage("Woh busy hoga kaam mein, lekin main to hoon na yahan! 😘", threadID);
+}
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
      return api.sendMessage("Zaini jutt  ❤️ My Creator. He loves me & Edit Me Daily. Ye Bot Sirf Owner k Liye h. Mujhe Aap logo ko Hasane k liye banya gya h Toh Muh Ladkaye Mat Rakkha Karo. Har Waqt Haste Raho.", threadID);
