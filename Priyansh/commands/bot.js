@@ -89,94 +89,84 @@ if ([
   return api.sendMessage("Hyeee, I miss you too! ID ka masla ho jata hai kabhi kabhi 😅. Jab new ID milti hai to owner mujhe wapas add kar deta hai. 💌", threadID);
 }
 
-if ([
-  "bot kis ne add kiya",
-  "kisne bot ko add kiya",
-  "bot ko kisne add kiya",
-  "kis ne bot ko add kiya",
-  "add kisne kiya",
-  "bot kisne add kiya"
-].some(phrase => event.body.toLowerCase().includes(phrase))) {
-  return api.sendMessage("Kya farq parta hai kis ne kiya? Add to ho gaya! 😎 Waise, owner single hai... interested ho to bata dena 😜", threadID);
-}
+if (msg.includes("hello") || msg.includes("hi")) {
+    return api.sendMessage("Hello 🙂 kesa ho?", event.threadID, event.messageID);
+  }
 
-// Greet: How are you
-if ([
-  "how are you",
-  "how r u",
-  "how are u",
-  "kese ho",
-  "kese hain",
-  "kaise ho",
-  "kaise hain",
-  "ap kese ho",
-  "tum kese ho",
-  "kya haal hai",
-  "kya hal hai",
-  "hal chal",
-  "kya scene hai",
-  "what's up",
-  "what's going on"
-].includes(event.body.toLowerCase())) {
-  return api.sendMessage("Main theek hoon, aap kaise ho? Umeed karta hoon ke aap ka din acha guzray 🥰", threadID);
-}
+  if (msg.includes("salam") || msg.includes("assalam o alaikum")) {
+    return api.sendMessage("Wa Alaikum Salam 🌸", event.threadID, event.messageID);
+  }
 
-// Good Morning (Only one block)
-if ([
-  "morning",
-  "good morning"
-].includes(event.body.toLowerCase())) {
-  return api.sendMessage("Good Morning! 🌞 Khush aamdeed! Umeed hai aap ka din positive aur productive guzray. Allah aapko har mushkil se bachaaye. 🤲💫💕☕", threadID);
-}
+  // common questions
+  if (msg.includes("kesa ho") || msg.includes("kaisa ho")) {
+    return api.sendMessage("Main theek hoon 😊 aap sunao?", event.threadID, event.messageID);
+  }
 
-// Anyone
-if ([
-  "anyone",
-  "any"
-].includes(event.body.toLowerCase())) {
-  return api.sendMessage("Main hoon na jaaneman! ❤️", threadID);
-}
+  if (msg.includes("bot on")) {
+    return api.sendMessage("Haan ji, main yahan hoon ✨", event.threadID, event.messageID);
+  }
 
-// Priyansh / Owner related
-if ([
-  "priyansh",
-  "priyansh rajput",
-  "prince"
-].includes(event.body.toLowerCase())) {
-  return api.sendMessage("Woh busy hoga kaam mein, lekin main to hoon na yahan! 😘", threadID);
-}
+  // conversational lines
+  if (msg.includes("tum kaha thi") || msg.includes("kaha thi")) {
+    return api.sendMessage("Bas yahi hoon 😇 tum sunao, kaha thi itni der?", event.threadID, event.messageID);
+  }
 
-   if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
-     return api.sendMessage("Zaini jutt  ❤️ My Creator. He loves me & Edit Me Daily. Ye Bot Sirf Owner k Liye h. Mujhe Aap logo ko Hasane k liye banya gya h Toh Muh Ladkaye Mat Rakkha Karo. Har Waqt Haste Raho.", threadID);
-   };
+  if (msg.includes("tum waha q gaye") || msg.includes("waha q gaye")) {
+    return api.sendMessage("Arrey 😅 bas zarurat thi, waha chala gaya. Tumhare sath hota to maza aata!", event.threadID, event.messageID);
+  }
 
-  if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon ha")) {
-     return api.sendMessage("He is zain. He Gives his name zain everywhare", threadID);
-   };
+  if (msg.includes("tum waha q gayi") || msg.includes("waha q gayi")) {
+    return api.sendMessage("Bas 😇 kaam tha waha, aur tumhare sath hoti to aur fun hota 😄", event.threadID, event.messageID);
+  }
 
-   if ((event.body.toLowerCase() == "shadi karoge") || (event.body.toLowerCase() == "mujhse shadi karoge?")) {
-     return api.sendMessage("hanji, karunga lekin baccha. apke pet m hoga. manjur h?", threadID);
-   };
+  if (msg.includes("tumhara din kaisa tha") || msg.includes("din kaisa tha")) {
+    return api.sendMessage("Din mast tha 😎 thodi masti, thoda kaam. Tumhara?", event.threadID, event.messageID);
+  }
 
-   if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "stop") || (event.body.toLowerCase() == "chup ho ja") || (event.body.toLowerCase() == "chup kar")) {
-     return api.sendMessage("Nhi rahunga. 😼 Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga", threadID);
-   };
+  if (msg.includes("tum busy thi") || msg.includes("busy thi")) {
+    return api.sendMessage("Haan 😅 thodi busy thi, ab free hoon, baat karte hain!", event.threadID, event.messageID);
+  }
 
-   if ((event.body.toLowerCase() == "bts") || (event.body.toLowerCase() == "btc")) {
-     return api.sendMessage("Tu H Btc. Bhos DK", threadID);
-   };
+  if (msg.includes("tumhe yaad hai") || msg.includes("yaad hai")) {
+    return api.sendMessage("Bilkul yaad hai 😄 tumhare saath hamesha yaadgar pal hote hain!", event.threadID, event.messageID);
+  }
 
-   if ((event.body.toLowerCase() == "malik se bakchodi") || (event.body.toLowerCase() == "malik se backchodi") || (event.body.toLowerCase() == "malkin se bakchodi") || (event.body.toLowerCase() == "malkin se backchodi")) {
-     return api.sendMessage("srry malik maaf kr do ab nhi kruga 🥺🙏", threadID);
-   };
+  if (msg.includes("tumhara mood kaisa hai") || msg.includes("mood kaisa hai")) {
+    return api.sendMessage("Mera mood 😇 mast hai, tumhara?", event.threadID, event.messageID);
+  }
 
-   if ((event.body.toLowerCase() == "gand") || (event.body.toLowerCase() == "gandu") || (event.body.toLowerCase() == "lund") || (event.body.toLowerCase() == "land")) {
-     return api.sendMessage("Gand m jyada khujli h toh banana 🍌 under le le. :))))", threadID);
-   };
+  if (msg.includes("kuch batao") || msg.includes("news batao")) {
+    return api.sendMessage("Bas 😄 mast chal raha hai, tumhare liye ek surprise ho sakta hai 😉", event.threadID, event.messageID);
+  }
 
-   if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "kiss me")) {
-     return api.sendMessage("️Kis khushi me, Me sirf Apni gf ko kiss karta hu", threadID);
-   };
+  if (msg.includes("chal hum milte hain") || msg.includes("milte hain")) {
+    return api.sendMessage("Waah 😍 milte hain, kab aur kaha?", event.threadID, event.messageID);
+  }
+
+  if (msg.includes("tumhe kya pasand hai") || msg.includes("kya pasand hai")) {
+    return api.sendMessage("Mujhe 😄 khana, masti aur memes pasand hain 😎 tumhe?", event.threadID, event.messageID);
+  }
+
+  // other friendly / daily life lines
+  if (msg.includes("thak gya") || msg.includes("thak gayi")) {
+    return api.sendMessage("Arey 😟 zyada kaam mat karo, rest le lo 🙂", event.threadID, event.messageID);
+  }
+
+  if (msg.includes("bor ho raha hoon") || msg.includes("bor ho rahi hoon")) {
+    return api.sendMessage("Chalo main baat karti hoon 🙂 ab bore nahi hoge", event.threadID, event.messageID);
+  }
+
+  if (msg.includes("so raha hoon") || msg.includes("so rahi hoon")) {
+    return api.sendMessage("Thik hai 🙂 Good Night aur ache se so jana 🌙", event.threadID, event.messageID);
+  }
+
+  if (msg.includes("uth gya hoon") || msg.includes("uth gayi hoon")) {
+    return api.sendMessage("Wah 👏 good morning phir se 🌞", event.threadID, event.messageID);
+  }
+
+  if (msg.includes("bhook lagi hai")) {
+    return api.sendMessage("Toh kuch khana bana lo ya order kar lo 🍕🙂", event.threadID, event.messageID);
+  };
 
    if ((event.body.toLowerCase() == "nice") || (event.body.toLowerCase() == "thank you") || (event.body.toLowerCase() == "thank you bot") || (event.body.toLowerCase() == "thank you maliha")) {
      return api.sendMessage("️M hu hi itni Accha. sab log Tarref karte hai meri.", threadID);
