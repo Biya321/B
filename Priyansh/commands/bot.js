@@ -139,15 +139,15 @@ if ([
 
 // Priyansh / Owner related
 if ([
-  "priyansh",
-  "priyansh rajput",
-  "prince"
+  "Nabhia Haq",
+  "Nabhia",
+  "Nabhia ka hun"
 ].includes(event.body.toLowerCase())) {
   return api.sendMessage("Woh busy hoga kaam mein, lekin main to hoon na yahan! 😘", threadID);
 }
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
-     return api.sendMessage("Zaini jutt  ❤️ My Creator. He loves me & Edit Me Daily. Ye Bot Sirf Owner k Liye h. Mujhe Aap logo ko Hasane k liye banya gya h Toh Muh Ladkaye Mat Rakkha Karo. Har Waqt Haste Raho.", threadID);
+     return api.sendMessage("Nabhia haq ❤️ My Creator. He loves me & Edit Me Daily. Ye Bot Sirf Owner k Liye h. Mujhe Aap logo ko Hasane k liye banya gya h Toh Muh Ladkaye Mat Rakkha Karo. Har Waqt Haste Raho.", threadID);
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon ha")) {
@@ -859,3 +859,4 @@ return api.sendMessage(msg, threadID, messageID);
 }
 
 module.exports.run = function({ api, event, client, __GLOBAL }) { }
+
