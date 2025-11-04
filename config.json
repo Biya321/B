@@ -16,13 +16,13 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Nabhia ka bot",
+    "BOTNAME": "Bot",
     "PREFIX": ".",
     "ADMINBOT": [
-        "61575126731193"
+        "61582910746861"
     ],
     "NDH": [
-        "61575126731193"
+        "61582910746861"
     ],
     "DATABASE": {
         "sqlite": {
