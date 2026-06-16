@@ -16,13 +16,13 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "remove you form the group",
+    "BOTNAME": "Remove you form the group",
     "PREFIX": ".",
     "ADMINBOT": [
-        "61582910746861"
+        "61590579973286"
     ],
     "NDH": [
-        "61582910746861"
+        "61590579973286"
     ],
     "DATABASE": {
         "sqlite": {
